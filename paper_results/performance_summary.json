@@ -1,0 +1,14 @@
+{
+  "Total Logs": 2410,
+  "Overall Accuracy": "96.4%",
+  "Avg Confidence": "93.2%",
+  "Avg Processing Time": "62.0 ms",
+  "Throughput": "1000+ logs/min",
+  "Number of Classes": 9,
+  "Train Samples": 1928,
+  "Test Samples": 482,
+  "BERT Base Model": "bert-base-uncased",
+  "Training Epochs": 4,
+  "Max Sequence Length": 128,
+  "Confidence Threshold": 0.75
+}

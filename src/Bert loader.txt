@@ -1,0 +1,17 @@
+PS C:\Users\manik\Documents\Log-Classification-System\src> python -c "
+>> import sys, os
+>> sys.path.insert(0, os.getcwd())
+>> from processors.enhanced_processor import BERTClassifier
+>>
+>> clf = BERTClassifier()
+>> clf._load()
+>>
+>> if clf._pipeline:
+>>     print('✅ BERT model loaded successfully!')
+>> else:
+>>     print('❌ BERT model failed to load — check BERT_MODEL_PATH in .env')
+>> "
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 201/201 [00:00<00:00, 2515.42it/s]
+2026-03-15 23:15:00.226 | INFO     | processors.enhanced_processor:_load:121 - BERT pipeline loaded.
+✅ BERT model loaded successfully!
+PS C:\Users\manik\Documents\Log-Classification-System\src>

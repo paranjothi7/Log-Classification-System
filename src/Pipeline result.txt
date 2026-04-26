@@ -1,0 +1,70 @@
+=======================================================
+  CLASSIFICATION SUMMARY
+=======================================================
+  Total logs processed : 2410
+  Avg confidence       : 93.2%
+  Avg processing time  : 62.01 ms
+
+  By Category:
+    HTTP Status               1017  ############
+    System Notification        343  ####
+    Security Alert             338  ####
+    Resource Usage             177  ##
+    Error                      163  ##
+    Critical Error             145  #
+    User Action                144  #
+    Unknown                     82  #
+    Deprecation Warning          1
+
+  By Severity:
+    Info            1586
+    Critical         437
+    Medium           340
+    High              46
+    Low                1
+
+  By Method:
+    Regex           1599
+    BERT             729
+    Hybrid            82
+=======================================================
+
+2026-03-15 23:42:43.076 | INFO     | utils.result_saver:summary_report:90 - Summary: {
+  "total": 2410,
+  "by_category": {
+    "HTTP Status": 1017,
+    "System Notification": 343,
+    "Security Alert": 338,
+    "Resource Usage": 177,
+    "Error": 163,
+    "Critical Error": 145,
+    "User Action": 144,
+    "Unknown": 82,
+    "Deprecation Warning": 1
+  },
+  "by_severity": {
+    "Info": 1586,
+    "Critical": 437,
+    "Medium": 340,
+    "High": 46,
+    "Low": 1
+  },
+  "by_method": {
+    "Regex": 1599,
+    "BERT": 729,
+    "Hybrid": 82
+  },
+  "avg_confidence": 0.9319,
+  "avg_time_ms": 62.01
+}
+
+
+              PIPELINE RESULTS SAVED
+
+  CSV      → C:\Users\manik\Documents\Log-Classification-System\src\results\classified_synthetic_logs.csv
+  JSON     → C:\Users\manik\Documents\Log-Classification-System\src\results\classified_synthetic_logs.json
+  DB rows  → 0
+  Accuracy → 96.4%  (2324/2410 correct)
+
+
+PS C:\Users\manik\Documents\Log-Classification-System\src>
