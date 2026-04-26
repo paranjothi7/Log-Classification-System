@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# IDE files
+.idea/
+*.iml
+/workspace.xml
+/shelf/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python (if your project uses it)
+__pycache__/
+*.pyc
+
+# Node.js (if applicable)
+node_modules/
