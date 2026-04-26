@@ -17,3 +17,15 @@ __pycache__/
 
 # Node.js (if applicable)
 node_modules/
+
+# Models (VERY IMPORTANT)
+models/
+
+# Large ML files
+*.safetensors
+*.bin
+*.pt
+*.h5
+
+# Database
+*.db
